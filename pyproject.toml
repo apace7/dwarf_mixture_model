@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dwarf_mixture_model"
+authors = [{name = "Andrew Pace", email = "pvpace1@gmail.com"}]
+readme = "README.md"
+version="0.0.1"
+requires-python = ">=3.8"
+dependencies = ["numpy","astropy","matplotlib","pyyaml", "emcee"
+]
+description = ""
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/apace7/dwarf_mixture_model"
+Issues = "https://github.com/apace7/dwarf_mixture_model/issues"
+
